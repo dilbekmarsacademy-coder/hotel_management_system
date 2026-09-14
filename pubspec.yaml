@@ -1,0 +1,82 @@
+name: hotel_management_system
+description: Professional Luxury Hotel Management System - Guest App + Admin Panel
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+  riverpod_annotation: ^2.3.5
+
+  # Navigation
+  go_router: ^14.2.0
+
+  # Firebase
+  firebase_core: ^3.3.0
+  firebase_auth: ^5.1.2
+  cloud_firestore: ^5.2.0
+  firebase_storage: ^12.1.1
+  firebase_messaging: ^15.0.4
+  cloud_functions: ^5.1.0
+  google_sign_in: ^6.2.1
+
+  # UI & Utils
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  flutter_spinkit: ^5.2.1
+  lottie: ^3.1.2
+  flutter_svg: ^2.0.10+1
+  intl: any
+  uuid: ^4.4.2
+  equatable: ^2.0.5
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+  shared_preferences: ^2.3.2
+  flutter_secure_storage: ^9.2.2
+  image_picker: ^1.1.2
+  photo_view: ^0.15.0
+  carousel_slider: ^5.0.0
+  table_calendar: ^3.1.2
+  url_launcher: ^6.3.0
+  qr_flutter: ^4.1.0
+  pdf: ^3.11.0
+  printing: ^5.13.1
+  path_provider: ^2.1.4
+  connectivity_plus: ^6.0.5
+  permission_handler: ^11.3.1
+  flutter_local_notifications: ^17.2.2
+  timeago: ^3.7.0
+  collection: ^1.18.0
+  dartz: ^0.10.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.11
+  riverpod_generator: ^2.4.0
+  freezed: ^2.5.2
+  json_serializable: ^6.8.0
+  mockito: ^5.4.4
+
+flutter:
+  uses-material-design: true
+
+  # Typography uses google_fonts package (Playfair Display + Inter).
+  # Local font files are optional; do not declare missing .ttf paths.
+  assets:
+    - assets/images/
+    - assets/icons/
+
+dependency_overrides:
+  intl: any
